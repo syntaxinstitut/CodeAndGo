@@ -1,3 +1,3 @@
 # Code & Go
 
-Xcode-Projekt mit Ständen, die aktiv erarbeitet werden.
+Starter-Projekt zur Erarbeitung.

@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E766CDC2CFF45A000C19B33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E766CD52CFF45A000C19B33 /* Preview Assets.xcassets */; };
-		4E766CDD2CFF45A000C19B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E766CD82CFF45A000C19B33 /* Assets.xcassets */; };
-		4E766CDE2CFF45A000C19B33 /* AdvancedSampleViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E766CD72CFF45A000C19B33 /* AdvancedSampleViewInfo.swift */; };
-		4E766CDF2CFF45A000C19B33 /* EmojiFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E766CD92CFF45A000C19B33 /* EmojiFunApp.swift */; };
-		4E766CE02CFF45A000C19B33 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E766CDA2CFF45A000C19B33 /* SampleView.swift */; };
-		4E766CE22CFF49DA00C19B33 /* AdvancedSampleViewDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E766CE12CFF49DA00C19B33 /* AdvancedSampleViewDrag.swift */; };
-		4E7E311F2D082581009FBF4A /* SampleViewComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E311E2D082581009FBF4A /* SampleViewComplete.swift */; };
+		4EA6BAD32D085C4100B0274B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6BACD2D085C4100B0274B /* Preview Assets.xcassets */; };
+		4EA6BAD42D085C4100B0274B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6BACF2D085C4100B0274B /* Assets.xcassets */; };
+		4EA6BAD52D085C4100B0274B /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6BAD02D085C4100B0274B /* EmojiView.swift */; };
+		4EA6BAD62D085C4100B0274B /* EmojiFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6BAD12D085C4100B0274B /* EmojiFunApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E766CC22CFF426200C19B33 /* EmojiFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E766CD52CFF45A000C19B33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4E766CD72CFF45A000C19B33 /* AdvancedSampleViewInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSampleViewInfo.swift; sourceTree = "<group>"; };
-		4E766CD82CFF45A000C19B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E766CD92CFF45A000C19B33 /* EmojiFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiFunApp.swift; sourceTree = "<group>"; };
-		4E766CDA2CFF45A000C19B33 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
-		4E766CE12CFF49DA00C19B33 /* AdvancedSampleViewDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSampleViewDrag.swift; sourceTree = "<group>"; };
-		4E7E311E2D082581009FBF4A /* SampleViewComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewComplete.swift; sourceTree = "<group>"; };
+		4EA6BABC2D085C3B00B0274B /* EmojiFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA6BACD2D085C4100B0274B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EA6BACF2D085C4100B0274B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EA6BAD02D085C4100B0274B /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		4EA6BAD12D085C4100B0274B /* EmojiFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiFunApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E766CBF2CFF426200C19B33 /* Frameworks */ = {
+		4EA6BAB92D085C3B00B0274B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E766CB92CFF426200C19B33 = {
+		4EA6BAB32D085C3B00B0274B = {
 			isa = PBXGroup;
 			children = (
-				4E766CDB2CFF45A000C19B33 /* EmojiFun */,
-				4E766CC32CFF426200C19B33 /* Products */,
+				4EA6BAD22D085C4100B0274B /* EmojiFun */,
+				4EA6BABD2D085C3B00B0274B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E766CC32CFF426200C19B33 /* Products */ = {
+		4EA6BABD2D085C3B00B0274B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E766CC22CFF426200C19B33 /* EmojiFun.app */,
+				4EA6BABC2D085C3B00B0274B /* EmojiFun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E766CD62CFF45A000C19B33 /* Preview Content */ = {
+		4EA6BACE2D085C4100B0274B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4E766CD52CFF45A000C19B33 /* Preview Assets.xcassets */,
+				4EA6BACD2D085C4100B0274B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4E766CDB2CFF45A000C19B33 /* EmojiFun */ = {
+		4EA6BAD22D085C4100B0274B /* EmojiFun */ = {
 			isa = PBXGroup;
 			children = (
-				4E766CD82CFF45A000C19B33 /* Assets.xcassets */,
-				4E766CD92CFF45A000C19B33 /* EmojiFunApp.swift */,
-				4E766CDA2CFF45A000C19B33 /* SampleView.swift */,
-				4E7E311E2D082581009FBF4A /* SampleViewComplete.swift */,
-				4E766CD72CFF45A000C19B33 /* AdvancedSampleViewInfo.swift */,
-				4E766CE12CFF49DA00C19B33 /* AdvancedSampleViewDrag.swift */,
-				4E766CD62CFF45A000C19B33 /* Preview Content */,
+				4EA6BACF2D085C4100B0274B /* Assets.xcassets */,
+				4EA6BAD12D085C4100B0274B /* EmojiFunApp.swift */,
+				4EA6BAD02D085C4100B0274B /* EmojiView.swift */,
+				4EA6BACE2D085C4100B0274B /* Preview Content */,
 			);
 			path = EmojiFun;
 			sourceTree = "<group>";
@@ -79,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E766CC12CFF426200C19B33 /* EmojiFun */ = {
+		4EA6BABB2D085C3B00B0274B /* EmojiFun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E766CD02CFF426300C19B33 /* Build configuration list for PBXNativeTarget "EmojiFun" */;
+			buildConfigurationList = 4EA6BACA2D085C3C00B0274B /* Build configuration list for PBXNativeTarget "EmojiFun" */;
 			buildPhases = (
-				4E766CBE2CFF426200C19B33 /* Sources */,
-				4E766CBF2CFF426200C19B33 /* Frameworks */,
-				4E766CC02CFF426200C19B33 /* Resources */,
+				4EA6BAB82D085C3B00B0274B /* Sources */,
+				4EA6BAB92D085C3B00B0274B /* Frameworks */,
+				4EA6BABA2D085C3B00B0274B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,72 +86,69 @@
 			packageProductDependencies = (
 			);
 			productName = EmojiFun;
-			productReference = 4E766CC22CFF426200C19B33 /* EmojiFun.app */;
+			productReference = 4EA6BABC2D085C3B00B0274B /* EmojiFun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E766CBA2CFF426200C19B33 /* Project object */ = {
+		4EA6BAB42D085C3B00B0274B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					4E766CC12CFF426200C19B33 = {
+					4EA6BABB2D085C3B00B0274B = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 4E766CBD2CFF426200C19B33 /* Build configuration list for PBXProject "EmojiFun" */;
+			buildConfigurationList = 4EA6BAB72D085C3B00B0274B /* Build configuration list for PBXProject "EmojiFun" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4E766CB92CFF426200C19B33;
+			mainGroup = 4EA6BAB32D085C3B00B0274B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4E766CC32CFF426200C19B33 /* Products */;
+			productRefGroup = 4EA6BABD2D085C3B00B0274B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E766CC12CFF426200C19B33 /* EmojiFun */,
+				4EA6BABB2D085C3B00B0274B /* EmojiFun */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E766CC02CFF426200C19B33 /* Resources */ = {
+		4EA6BABA2D085C3B00B0274B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E766CDC2CFF45A000C19B33 /* Preview Assets.xcassets in Resources */,
-				4E766CDD2CFF45A000C19B33 /* Assets.xcassets in Resources */,
+				4EA6BAD32D085C4100B0274B /* Preview Assets.xcassets in Resources */,
+				4EA6BAD42D085C4100B0274B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E766CBE2CFF426200C19B33 /* Sources */ = {
+		4EA6BAB82D085C3B00B0274B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E766CDE2CFF45A000C19B33 /* AdvancedSampleViewInfo.swift in Sources */,
-				4E766CDF2CFF45A000C19B33 /* EmojiFunApp.swift in Sources */,
-				4E7E311F2D082581009FBF4A /* SampleViewComplete.swift in Sources */,
-				4E766CE02CFF45A000C19B33 /* SampleView.swift in Sources */,
-				4E766CE22CFF49DA00C19B33 /* AdvancedSampleViewDrag.swift in Sources */,
+				4EA6BAD52D085C4100B0274B /* EmojiView.swift in Sources */,
+				4EA6BAD62D085C4100B0274B /* EmojiFunApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4E766CCE2CFF426300C19B33 /* Debug */ = {
+		4EA6BAC82D085C3C00B0274B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		4E766CCF2CFF426300C19B33 /* Release */ = {
+		4EA6BAC92D085C3C00B0274B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +267,7 @@
 			};
 			name = Release;
 		};
-		4E766CD12CFF426300C19B33 /* Debug */ = {
+		4EA6BACB2D085C3C00B0274B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +280,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,11 +296,11 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4E766CD22CFF426300C19B33 /* Release */ = {
+		4EA6BACC2D085C3C00B0274B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,7 +313,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,32 +329,32 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E766CBD2CFF426200C19B33 /* Build configuration list for PBXProject "EmojiFun" */ = {
+		4EA6BAB72D085C3B00B0274B /* Build configuration list for PBXProject "EmojiFun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E766CCE2CFF426300C19B33 /* Debug */,
-				4E766CCF2CFF426300C19B33 /* Release */,
+				4EA6BAC82D085C3C00B0274B /* Debug */,
+				4EA6BAC92D085C3C00B0274B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E766CD02CFF426300C19B33 /* Build configuration list for PBXNativeTarget "EmojiFun" */ = {
+		4EA6BACA2D085C3C00B0274B /* Build configuration list for PBXNativeTarget "EmojiFun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E766CD12CFF426300C19B33 /* Debug */,
-				4E766CD22CFF426300C19B33 /* Release */,
+				4EA6BACB2D085C3C00B0274B /* Debug */,
+				4EA6BACC2D085C3C00B0274B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E766CBA2CFF426200C19B33 /* Project object */;
+	rootObject = 4EA6BAB42D085C3B00B0274B /* Project object */;
 }
